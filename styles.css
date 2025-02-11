@@ -1,0 +1,140 @@
+/* Algemene stijlen */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #c7c6c6;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #0092c6;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Navigatie */
+nav {
+    background-color: #0092c6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero sectie */
+.hero {
+    background: url('hero-image.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Inhoud */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0092c6;
+    font-size: 2em;
+    border-bottom: 2px solid #0092c6;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Knoppen */
+.button {
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    background-color: #0092c6;
+    font-family: 'Source Sans Pro';
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button.arrow {
+    background-image: url('/static/img/arrow-right-white.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button.arrow:hover {
+    background-color: #fff;
+    background-image: url('/static/img/arrow-right-black.svg');
+    color: #0092c6;
+}
+
+/* Voettekst */
+footer {
+    background-color: #3e3f44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-image: url('/static/img/footer-background.svg');
+    background-repeat: no-repeat;
+    background-size: 478px 482px;
+    background-position: bottom right;
+}
