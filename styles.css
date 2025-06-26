@@ -71,6 +71,10 @@ nav a:hover {
     font-weight: bold;
 }
 
+.hero h1 {
+    margin: 0;
+}
+
 /* Inhoud */
 .container {
     max-width: 1200px;
